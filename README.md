@@ -127,3 +127,4 @@ python -m compileall -q ground_classification tests examples *.py
 本次整理验证：13 项测试中 12 项通过，XGBoost 因未安装可选依赖跳过 1 项；语法编译与差异空白检查通过。另已检查全部 3,810 个训练序列和 3,816 个测试序列，并将 LSTM/GRU 的完整训练数据预处理结果与整理前实现逐项比较一致。历史权重可按 19 维 LSTM 结构加载，但其输入特征顺序尚不能确认。
 # Robot-Ground-Classification-Based-on-Quaternion-Transformation-and-Temporal-Networks
 # Robot-Ground-Classification-Based-on-Quaternion-Transformation-and-Temporal-Networks
+# Robot-Ground-Classification-Based-on-Quaternion-Transformation-and-Temporal-Networks
